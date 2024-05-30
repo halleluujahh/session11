@@ -8,6 +8,9 @@
 <body>
     <script>
         let inputS = prompt("Nhập vào chuỗi kí tự:");
+        while(inputS.length==0){
+            inputS = prompt("Hãy nhập vào chuỗi kí tự:");
+        }
         inputA = inputS.split("");
         function kiemTraTanSuat(array){
             let count = 0;
