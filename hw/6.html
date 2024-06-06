@@ -26,7 +26,11 @@
                     }
                 }
             }
-            console.log(`${result}`);
+            if(result == 0){
+                console.log("Không có số độc nhất và lớn nhất trong mảng ");
+            }else{
+                console.log(`${result}`);
+            }
         }
         maxUnique(input);
     </script>

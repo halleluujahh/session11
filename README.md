@@ -32,5 +32,9 @@ cú pháp: let result=()=>{
 + nếu hàm chỉ return thì sẽ kết quả return sẽ là undefined.
 + khi hàm khác cần kết quả trả về của hàm hiện tại thì sẽ phải return.
 # Đệ quy
-
+- là hàm tự gọi lại chính nó.
+- dùng để giải quyết các vấn đề có tính lặp lại một nhiệm vụ đến khi đạt được điều kiện thỏa mãn.
 # Callback
+- là hàm dùng để truyền tham số của hàm khác.
+- dùng để xử lý các tác vụ bất đồng bộ.
+- setTimeout: là 1 phương thức trong js, dùng để đặt thời gian chờ cho hàm thực thi.
